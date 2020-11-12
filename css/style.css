@@ -119,8 +119,15 @@ nav.middle div.about{
 /* HEADER BOTTOM */
 nav.bottom{
   height: 800px;
-  background-color: pink
+  background-color: pink;
+  background-image: url('../img/sfondoheader.png');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
+
+/* nav.bottom div.container{
+  position: absolute;
+} */
 
 /* HEADER STRISCIA */
 div.striscia{
@@ -128,4 +135,8 @@ div.striscia{
   background-color: lightblue;
   border-bottom: 3px solid black;
   border-top: 3px solid black;
+  position: relative;
+  transform: translateY(-100%);
+  /* position: relative;
+  bottom: 0; */
 }
