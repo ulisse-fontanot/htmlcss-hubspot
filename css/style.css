@@ -55,13 +55,22 @@ nav.top div.container div{
 /* HEADER TOP LEFT */
 .top-left-mondo{
   height: 50px;
-  width: 30px;
+  width: 50px;
+}
+
+.top-left-mondo p{
+  height: 50px;
+  width: 50px;
 }
 
 .top-left-select{
   height: 50px;
   width: 100px;
   padding-right: 10px;
+}
+
+.top-left-select select{
+  background-color: rgb(212, 241, 245);
 }
 
 .top-left-contact{
@@ -108,7 +117,7 @@ cursor: pointer;
 
 .top-right-get{
   height: 50px;
-  width: 150px;
+  width: 200px;
   margin-left: 10px;
   background-color: rgb(233, 106, 58);
   border: 3px solid white;
@@ -170,7 +179,7 @@ nav.middle div.partners{
 nav.middle div.about{
   margin: 25px 0;
   height: 50px;
-  width: 150px;
+  width: 100px;
 }
 
 /* HEADER BOTTOM */
@@ -205,6 +214,7 @@ nav.bottom p.scritta-tre{
   color: white;
   background-color: rgb(233, 106, 58);
   padding: 20px;
+  border: 3px solid white;
   border-radius: 5px;
   margin-top: 20px;
   width: 300px;
