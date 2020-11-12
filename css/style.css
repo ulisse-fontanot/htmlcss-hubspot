@@ -30,6 +30,7 @@ nav.top{
   border-bottom: 2px solid black;
 }
 
+/* HEADER TOP LEFT */
 .top-left-mondo{
   background-color: lightblue;
   height: 50px;
@@ -48,10 +49,71 @@ nav.top{
   width: 100px;
 }
 
+/* HEADER TOP RIGHT */
+.top-right-lente{
+  background-color: lightblue;
+  height: 50px;
+  width: 50px;
+}
+
+.top-right-login{
+  background-color: pink;
+  height: 50px;
+  width: 100px;
+}
+
+.top-right-get{
+  background-color: yellow;
+  height: 50px;
+  width: 100px;
+}
+
 /* HEADER MIDDLE */
 nav.middle{
-  height: 100px;
   background-color: orange;
+}
+
+/* HEADER MIDDLE LEFT */
+nav.middle div.logo{
+  background-color: lightblue;
+  height: 100px;
+  width: 200px;
+}
+
+/* HEADER MIDDLE RIGHT */
+nav.middle div.software{
+  background-color: yellow;
+  margin: 25px 0;
+  height: 50px;
+  width: 100px;
+}
+
+nav.middle div.pricing{
+  background-color: pink;
+  margin: 25px 0;
+  height: 50px;
+  width: 100px;
+}
+
+nav.middle div.resources{
+  background-color: yellow;
+  margin: 25px 0;
+  height: 50px;
+  width: 100px;
+}
+
+nav.middle div.partners{
+  background-color: pink;
+  margin: 25px 0;
+  height: 50px;
+  width: 100px;
+}
+
+nav.middle div.about{
+  background-color: yellow;
+  margin: 25px 0;
+  height: 50px;
+  width: 100px;
 }
 
 /* HEADER BOTTOM */
