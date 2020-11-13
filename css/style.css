@@ -20,7 +20,7 @@ select{
   font-size: 20px;
 }
 
-.clearfix{
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
@@ -58,7 +58,7 @@ nav.top div.container div{
   width: 50px;
 }
 
-.top-left-mondo p{
+.top-left-mondo i{
   height: 50px;
   width: 50px;
 }
@@ -88,6 +88,7 @@ nav.top div.container div{
   height: 50px;
   width: 50px;
   font-size: 40px;
+  margin-right: 10px;
 }
 
 .top-right-lente:hover{
@@ -189,6 +190,7 @@ nav.bottom{
   background-image: url('../img/sfondoheader.png');
   background-repeat: no-repeat;
   background-position: 100% 100%;
+  position: relative;
 }
 
 div.header-bottom-box{
@@ -231,14 +233,82 @@ cursor: pointer;
 nav.bottom p.scritta-quattro{
   font-size: 30px;
   margin-top: 20px;
+  width: 70%;
 }
 
 /* HEADER STRISCIA */
 div.striscia{
   height: 83px;
+  width: 100vw;
   background-color: #AFEBE4;
   border-bottom: 3px solid black;
   border-top: 3px solid black;
-  position: relative;
-  transform: translateY(-100%);
+  position: absolute;
+  bottom: 0;
+}
+
+/* MAIN */
+
+/* MAIN TOP */
+section.main-top{
+  background-color: rgb(212, 241, 245);
+  height: 1600px;
+  width: 100vw;
+}
+
+/* MAIN MIDDLE */
+section.main-middle{
+  background-color: rgb(31, 70, 237);
+  height: 800px;
+  width: 100vw;
+}
+
+/* MAIN BOTTOM */
+section.main-bottom{
+  background-color: white;
+  height: 800px;
+  width: 100vw;
+}
+
+.cubi{
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-top-scritta-grande{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 125px;
+}
+
+.main-top-scritta-piccola{
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 25px 0 25px;
+}
+
+.main-top-box-centro{
+  background-color: white;
+  width: 100%;
+  padding: 60px;
+}
+
+div.libro{
+  width: 33%;
+}
+
+div.libro img{
+  width: 200px;
+}
+
+div.libro p{
+  padding: 10px;
+  width: 200px;
+  background-color: orange;
+  text-align: center;
+  border-radius: 5px;
 }
