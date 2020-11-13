@@ -252,6 +252,7 @@ div.striscia{
 section.main-top{
   background-color: rgb(212, 241, 245);
   width: 100vw;
+  padding: 30px 0;
 }
 
 /* MAIN TOP ZONA SCRITTE */
@@ -379,10 +380,74 @@ div.main-top-box-sotto img{
 
 /* MAIN MIDDLE */
 section.main-middle{
-  background-color: rgb(31, 70, 237);
-  height: 800px;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  color: white;
   width: 100vw;
+  padding: 100px 0;
 }
+
+#main-middle-scritta-grande{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+
+#main-middle-scritta-piccola{
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 25px 0 100px;
+}
+
+.blocco{
+  width: 100%;
+}
+
+.mini-box{
+  width: calc(60vw / 4);
+  height: calc(60vw / 4);
+  text-align: center;
+  padding: 80px;
+}
+
+.mini-box div p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mini-box i, .mini-box div p:first-child{
+  font-size: 50px;
+}
+
+.mini-box img{
+  height: 50px;
+}
+
+.mini-box p{
+  font-size: 20px;
+}
+
+.mini-box-sopra{
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.mini-box-sopra-destro{
+  border-bottom: 2px solid white;
+}
+
+.mini-box-sotto{
+  border-right: 2px solid white;
+}
+
+.mini-box-sotto-destro{
+}
+
+
+/* MAIN MIDDLE */
 
 /* MAIN BOTTOM */
 section.main-bottom{
