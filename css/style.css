@@ -402,6 +402,8 @@ section.main-middle{
   padding: 25px 0 100px;
 }
 
+
+/* ZONA MINI BOX */
 .blocco{
   width: 100%;
 }
@@ -445,8 +447,7 @@ section.main-middle{
 
 .mini-box-sotto-destro{
 }
-
-
+/* ZONA MINI BOX */
 /* MAIN MIDDLE */
 
 /* MAIN BOTTOM */
@@ -455,3 +456,32 @@ section.main-bottom{
   height: 800px;
   width: 100vw;
 }
+
+/* ZONA DATI */
+.dati{
+  width: 40%;
+  padding: 50px 0;
+}
+
+.dati p:first-child{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.dati p:last-child{
+  font-size: 20px;
+  width: 50%;
+}
+/* ZONA DATI */
+
+/* ZONA SPONSOR */
+.box-sponsor{
+  height: 60px;
+}
+
+.box-sponsor img{
+  height: 60px;
+}
+/* ZONA SPONSOR */
+
+/* MAIN BOTTOM */
