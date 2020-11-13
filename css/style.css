@@ -35,7 +35,7 @@ select{
 }
 
 .container{
-  width: 80vw;
+  width: 60vw;
   margin: auto;
 }
 
@@ -198,21 +198,20 @@ div.header-bottom-box{
 }
 
 nav.bottom p.scritta-uno{
-  font-size: 80px;
+  font-size: 70px;
   padding-top: 10%;
   font-weight: bold;
 }
 
 nav.bottom p.scritta-due{
-
-  font-size: 30px;
+  font-size: 20px;
   line-height: 40px;
   margin-top: 20px;
 }
 
 nav.bottom p.scritta-tre{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   background-color: rgb(233, 106, 58);
   padding: 20px;
@@ -231,7 +230,7 @@ cursor: pointer;
 }
 
 nav.bottom p.scritta-quattro{
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
   width: 70%;
 }
@@ -252,9 +251,131 @@ div.striscia{
 /* MAIN TOP */
 section.main-top{
   background-color: rgb(212, 241, 245);
-  height: 1600px;
   width: 100vw;
 }
+
+/* MAIN TOP ZONA SCRITTE */
+.cubi{
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-top-scritta-grande{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 125px;
+}
+
+.main-top-scritta-piccola{
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 25px 0 25px;
+}
+/* MAIN TOP ZONA SCRITTE */
+
+/* MAIN TOP ZONA CENTRO-LIBRO */
+.main-top-box-centro{
+  background-color: white;
+  width: 100%;
+  padding: 60px;
+}
+
+div.libro{
+  padding-right: 40px;
+}
+
+div.libro img{
+  width: 300px;
+}
+
+div.libro p{
+  padding: 10px;
+  width: 300px;
+  background-color: orange;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.main-top-box-centro-scritte #scritta-uno{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0 10px;
+}
+
+.main-top-box-centro-scritte #scritta-due{
+  font-weight: bold;
+  padding: 10px 0 10px;
+}
+
+div.scritta-riga{
+  padding: 10px 0 10px;
+}
+
+div.scritta-riga p{
+  font-weight: bold;
+}
+
+.main-top-box-centro-scritte-sotto p{
+  display: inline-block;
+  padding-right: 10px;
+}
+/* MAIN TOP ZONA CENTRO-LIBRO */
+
+/* MAIN TOP ZONA SOTTO-3 BOX */
+.main-top-box-sotto{
+  width: 100%;
+  margin: 30px 0 30px;
+  text-align: center;
+}
+
+div.main-top-box-sotto-figlio{
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+}
+
+div.main-top-box-sotto img{
+  height: 200px;
+}
+
+#scritta-uno-box{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0 10px;
+}
+
+#scritta-due-box{
+  font-weight: bold;
+  padding: 10px 0 40px;
+}
+
+#scritta-tre-box{
+  font-weight: bold;
+  padding: 30px 0 30px;
+}
+
+.learn-more{
+  margin: auto;
+  background-color: orange;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.main-top-box-bottom p{
+  padding-right: 10px;
+  float: left;
+  font-weight: bold;
+}
+/* MAIN TOP ZONA SOTTO-3 BOX */
+/* MAIN TOP */
 
 /* MAIN MIDDLE */
 section.main-middle{
@@ -268,47 +389,4 @@ section.main-bottom{
   background-color: white;
   height: 800px;
   width: 100vw;
-}
-
-.cubi{
-  height: 300px;
-  text-align: center;
-  padding: 20px;
-}
-
-.main-top-scritta-grande{
-  font-size: 50px;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 125px;
-}
-
-.main-top-scritta-piccola{
-  font-size: 30px;
-  text-align: center;
-  margin: auto;
-  width: 70%;
-  padding: 25px 0 25px;
-}
-
-.main-top-box-centro{
-  background-color: white;
-  width: 100%;
-  padding: 60px;
-}
-
-div.libro{
-  width: 33%;
-}
-
-div.libro img{
-  width: 200px;
-}
-
-div.libro p{
-  padding: 10px;
-  width: 200px;
-  background-color: orange;
-  text-align: center;
-  border-radius: 5px;
 }
