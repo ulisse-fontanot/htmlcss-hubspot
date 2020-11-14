@@ -45,6 +45,7 @@ nav.top{
   padding: 25px 0;
   border-bottom: 2px solid black;
   font-size: 20px;
+  width: 100vw;
 }
 
 nav.top div.container div{
@@ -136,6 +137,10 @@ cursor: pointer;
 
 /* HEADER MIDDLE */
 
+header nav.middle{
+  width: 100vw;
+}
+
 /* HEADER MIDDLE LEFT */
 nav.middle div.logo img{
   height: 80px;
@@ -191,6 +196,7 @@ nav.bottom{
   background-repeat: no-repeat;
   background-position: 100% 100%;
   position: relative;
+  width: 100vw;
 }
 
 div.header-bottom-box{
@@ -255,6 +261,10 @@ section.main-top{
   padding: 30px 0;
 }
 
+section.main-top i{
+  color: rgb(233, 106, 58);
+}
+
 /* MAIN TOP ZONA SCRITTE */
 .cubi{
   height: 300px;
@@ -294,11 +304,24 @@ div.libro img{
 }
 
 div.libro p{
-  padding: 10px;
+  color: white;
+  padding: 20px;
   width: 300px;
-  background-color: orange;
+  background-color: rgb(233, 106, 58);
+  border: 3px solid rgb(233, 106, 58);
   text-align: center;
   border-radius: 5px;
+}
+
+div.libro p:hover{
+  background-color: white;
+  color: rgb(233, 106, 58);
+  border: 3px solid rgb(233, 106, 58);
+  cursor: pointer;
+}
+
+.main-top-box-centro-scritte{
+  width: 60%;
 }
 
 .main-top-box-centro-scritte #scritta-uno{
@@ -313,7 +336,7 @@ div.libro p{
 }
 
 div.scritta-riga{
-  padding: 10px 0 10px;
+  padding: 20px 0 ;
 }
 
 div.scritta-riga p{
@@ -323,6 +346,7 @@ div.scritta-riga p{
 .main-top-box-centro-scritte-sotto p{
   display: inline-block;
   padding-right: 10px;
+  font-weight: bold;
 }
 /* MAIN TOP ZONA CENTRO-LIBRO */
 
@@ -363,11 +387,20 @@ div.main-top-box-sotto img{
 
 .learn-more{
   margin: auto;
-  background-color: orange;
+  background-color: rgb(233, 106, 58);
+  border: 3px solid rgb(233, 106, 58);
+  border-radius: 5px;
   color: white;
   width: 200px;
   padding: 20px;
   margin-top: 40px;
+}
+
+.main-top-box-sotto-figlio .learn-more:hover{
+  background-color: white;
+  color: rgb(233, 106, 58);
+  border: 3px solid rgb(233, 106, 58);
+  cursor: pointer;
 }
 
 .main-top-box-bottom p{
@@ -453,7 +486,6 @@ section.main-middle{
 /* MAIN BOTTOM */
 section.main-bottom{
   background-color: white;
-  height: 800px;
   width: 100vw;
 }
 
@@ -475,13 +507,156 @@ section.main-bottom{
 /* ZONA DATI */
 
 /* ZONA SPONSOR */
+.zona-sponsor{
+  width: 60%;
+}
 .box-sponsor{
-  height: 60px;
+  height: 100px;
+  width: 140px;
+  margin: 10px;
+  position: relative;
 }
 
 .box-sponsor img{
-  height: 60px;
+  width: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* ZONA SPONSOR */
 
+/* ZONA START */
+.start{
+  margin-bottom: 100px;
+}
+
+div.start div{
+  width: 66%;
+}
+
+div.start img{
+  width: 33%;
+}
+
+.main-bottom-scritte p.scritta-uno{
+  font-size: 50px;
+  padding-top: 10%;
+  font-weight: bold;
+}
+
+.main-bottom-scritte p.scritta-due{
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 20px;
+  width: 70%;
+}
+
+.main-bottom-scritte p.scritta-tre{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(233, 106, 58);
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.main-bottom-scritte p.scritta-tre:hover{
+color: rgb(233, 106, 58);
+border: 3px solid rgb(233, 106, 58);
+border-radius: 5px;
+background-color: white;
+cursor: pointer;
+}
+
+.main-bottom-scritte p.scritta-quattro{
+  font-size: 20px;
+  margin-top: 20px;
+  width: 70%;
+}
+/* ZONA START */
+
 /* MAIN BOTTOM */
+
+/* FINE MAIN */
+
+/* FOOTER */
+footer{
+  background-color: #2D3E50;
+  color: white;
+  padding: 30px 0;
+}
+
+footer div{
+  font-size: 20px;
+  line-height: 40px;
+}
+
+footer div p{
+  font-weight: bold;
+}
+
+.footer-box{
+  width: 25%;
+}
+
+.footer-box a{
+  display: block;
+  color: white;
+}
+
+.iconcine i{
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.iconcine i:hover{
+  color: #2D3E50;
+  background-color: white;
+  cursor: pointer;
+}
+
+.footer-contact{
+  background-color: white;
+  color: #2D3E50;
+  border: 3px solid white;
+  border-radius: 5px;
+  text-align: center;
+  width: 75%;
+  margin: 20px 0;
+}
+
+.footer-contact:hover{
+  background-color: #2D3E50;
+  color: white;
+  cursor: pointer;
+  border: 3px solid white;
+}
+
+footer .footer-lingue{
+  text-align: center;
+}
+
+footer .footer-lingue a{
+  display: inline-block;
+  padding: 0 20px;
+  color: white;
+}
+
+.footer-left, .footer-right{
+  padding: 20px 0;
+}
+
+div.footer-left img{
+  height: 60px;
+}
+
+footer .footer-right a{
+  display: inline-block;
+  padding: 0 20px;
+  color: white;
+}
+/* FOOTER */
