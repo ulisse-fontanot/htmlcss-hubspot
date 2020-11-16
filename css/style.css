@@ -35,7 +35,7 @@ select{
 }
 
 .container{
-  width: 60vw;
+  width: 60%;
   margin: auto;
 }
 
@@ -45,7 +45,12 @@ nav.top{
   padding: 25px 0;
   border-bottom: 2px solid black;
   font-size: 20px;
-  width: 100vw;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 nav.top div.container div{
@@ -138,7 +143,8 @@ cursor: pointer;
 /* HEADER MIDDLE */
 
 header nav.middle{
-  width: 100vw;
+  width: 100%;
+  margin-top: 100px;
 }
 
 /* HEADER MIDDLE LEFT */
@@ -147,11 +153,11 @@ nav.middle div.logo img{
   margin-top: 10px;
 }
 
-/* HEADER MIDDLE LEFT */
 nav.middle div.logo{
   height: 100px;
   width: 200px;
 }
+/* HEADER MIDDLE LEFT */
 
 /* HEADER MIDDLE RIGHT */
 nav.middle div{
@@ -187,20 +193,23 @@ nav.middle div.about{
   height: 50px;
   width: 100px;
 }
+/* HEADER MIDDLE RIGHT */
+
+/* HEADER MIDDLE */
 
 /* HEADER BOTTOM */
 nav.bottom{
-  height: 800px;
   background-color: #FFF4EF;
   background-image: url('../img/sfondoheader.png');
   background-repeat: no-repeat;
   background-position: 100% 100%;
   position: relative;
-  width: 100vw;
+  width: 100%;
 }
 
 div.header-bottom-box{
   width: 50%;
+  padding-bottom: 100px;
 }
 
 nav.bottom p.scritta-uno{
@@ -237,27 +246,30 @@ cursor: pointer;
 
 nav.bottom p.scritta-quattro{
   font-size: 20px;
-  margin-top: 20px;
+  margin: 20px 0 100px;
   width: 70%;
 }
 
 /* HEADER STRISCIA */
 div.striscia{
   height: 83px;
-  width: 100vw;
+  width: 100%;
   background-color: #AFEBE4;
   border-bottom: 3px solid black;
   border-top: 3px solid black;
   position: absolute;
   bottom: 0;
 }
+/* HEADER BOTTOM */
+
+/* HEADER */
 
 /* MAIN */
 
 /* MAIN TOP */
 section.main-top{
   background-color: rgb(212, 241, 245);
-  width: 100vw;
+  width: 100%;
   padding: 30px 0;
 }
 
@@ -297,16 +309,17 @@ section.main-top i{
 
 div.libro{
   padding-right: 40px;
+  width: 40%;
 }
 
 div.libro img{
-  width: 300px;
+  width: 100%;
 }
 
 div.libro p{
   color: white;
   padding: 20px;
-  width: 300px;
+  width: 100%;
   background-color: rgb(233, 106, 58);
   border: 3px solid rgb(233, 106, 58);
   text-align: center;
@@ -415,8 +428,8 @@ div.main-top-box-sotto img{
 section.main-middle{
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   color: white;
-  width: 100vw;
-  padding: 100px 0;
+  width: 100%;
+  padding: 50px 0;
 }
 
 #main-middle-scritta-grande{
@@ -432,7 +445,7 @@ section.main-middle{
   text-align: center;
   margin: auto;
   width: 70%;
-  padding: 25px 0 100px;
+  padding: 25px 0 50px;
 }
 
 
@@ -442,10 +455,10 @@ section.main-middle{
 }
 
 .mini-box{
-  width: calc(60vw / 4);
-  height: calc(60vw / 4);
+  width: calc(100% / 4);
+  height: 250px;
   text-align: center;
-  padding: 80px;
+  padding: 40px;
 }
 
 .mini-box div p{
@@ -477,16 +490,14 @@ section.main-middle{
 .mini-box-sotto{
   border-right: 2px solid white;
 }
-
-.mini-box-sotto-destro{
-}
 /* ZONA MINI BOX */
+
 /* MAIN MIDDLE */
 
 /* MAIN BOTTOM */
 section.main-bottom{
   background-color: white;
-  width: 100vw;
+  width: 100%;
 }
 
 /* ZONA DATI */
@@ -586,6 +597,7 @@ cursor: pointer;
 /* FOOTER */
 footer{
   background-color: #2D3E50;
+  width: 100%;
   color: white;
   padding: 30px 0;
 }
